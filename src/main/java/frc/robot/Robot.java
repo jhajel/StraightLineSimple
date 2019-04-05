@@ -148,7 +148,7 @@ public class Robot extends TimedRobot {
 													Constants.PID_PRIMARY, 
 													Constants.kTimeoutMs);
 		
-		/* Scale the Feedback Sensor using a coefficient */
+		/* Scale the Feedback Sensor using a coefficient  */
 		/**
 		 * Heading units should be scaled to ~4000 per 360 deg, due to the following limitations...
 		 * - Target param for aux PID1 is 18bits with a range of [-131072,+131072] units.
