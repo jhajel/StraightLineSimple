@@ -154,7 +154,7 @@ public class Robot extends TimedRobot {
 		 * - Target param for aux PID1 is 18bits with a range of [-131072,+131072] units.
 		 * - Target for aux PID1 in motion profile is 14bits with a range of [-8192,+8192] units.
 		 *  ... so at 3600 units per 360', that ensures 0.1 degree precision in firmware closed-loop
-		 *  and motion profile trajectory points can range +-2 rotations.
+		 *  and motion profile trajectory points can range +-2 rotations. Hi
 		 */
 		_rightMaster.configSelectedFeedbackCoefficient(	Constants.kTurnTravelUnitsPerRotation / Constants.kEncoderUnitsPerRotation,	// Coefficient
 														Constants.PID_PRIMARY, 														// PID Slot of Source
